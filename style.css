@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* style.css */
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.phone-input {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.phone-input label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.phone-input input[type="tel"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.message-input {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message-input label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.message-input textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+  /* Allow vertical resizing */
+  height: 100px;
+  /* Initial height */
+}
