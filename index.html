@@ -9,41 +9,27 @@
 </head>
 
 <body>
-  <!-- <div>
-    <label for="phone1">Phone Number 1:</label>
-    <input type="tel" id="phone1" name="phone1" required>
-  </div>
-  <div>
-    <label for="phone2">Phone Number 2:</label>
-    <input type="tel" id="phone2" name="phone2" required>
-  </div>
-  <div>
-    <label for="phone3">Phone Number 3:</label>
-    <input type="tel" id="phone3" name="phone3" required>
-  </div> -->
+
 
   <div id="phoneInputs">
-    <!-- <div>
-      <label class=".phone-input" for="phone1">Phone Number 1:</label>
-      <input type="tel" id="phone1" name="phone1" required>
-    </div> -->
   </div>
-  <button id="addPhoneButton">Add Phone Number</button>
+  <button id="addPhoneButton">+ Add Phone Number</button>
 
   <div class="message-input">
     <label for="message">Message:</label>
     <textarea id="message" name="message" placeholder="Enter your message"></textarea>
   </div>
 
-  <a id="staticSMSLink" href="sms:+8018858684;+8018852690&body=Hello%20there%21">
-    Send this
-  </a>
-
+  <!-- 
   <a href="sms://open?addresses=+12223334444,+12223334445?&body=Message%20Line%201%E2%80%A8Message%20Line%202">Send SMS
-    to multi #s</a>
+    to multi #s</a> -->
 
 
   <a id="sendSMS" href="">Send SMS</a>
+
+  <div class="status-area">
+    <p id="status"></p>
+  </div>
 
   <script src="script.js"></script>
 </body>
